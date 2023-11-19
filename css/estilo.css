@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logo img{
+    max-width: 100px;
+    border-radius: 50%;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    margin-right: 15px; 
+}
+nav a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none; 
+    color: #fff; 
+}
+
+.portad{
+    background-color: rgb(95, 46, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tex h1{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.tex h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.imagenn{
+    width: 50%;
+    height: auto;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.imagen{
+    text-align: center;
+    width: 400px;
+}
+
+.imagen img{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+.imagen p{
+    margin: 20px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: beige;
+    border-radius: 20px;
+    font-family: 'Lucida Sans';
+}
+
+.reseña {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+.reseña h2 {
+    color: rgb(141, 68, 16);
+    text-align: center;
+    font-size: 40px;
+}
+.reseña p {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+}
+
+.buttonn {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.buttonn P{
+    text-align: center;
+    font-family:Verdana;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.boton-pedido {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-pedido:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto {
+    margin-bottom: 10px;
+}
+.contacto p {
+    margin: 0;
+    font-size: 20px;
+}
+.redes-sociales a {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 30px;
+    text-decoration: none;
+}
+
+.icono-facebook::before {
+    font-family: 'FontAwesome'; 
+}
+.icono-instagram::before {
+
+    font-family: 'FontAwesome';
+}
